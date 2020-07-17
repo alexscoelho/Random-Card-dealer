@@ -1,0 +1,69 @@
+body {
+    background: green;
+}
+.card {
+    width: 270px;
+    height: 360px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 50px;
+    
+}
+.number {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 50px;
+    display: block;
+    
+    
+}
+.top-suite {
+    display: block;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
+.bottom-suite {
+    float: right;
+    position: relative;
+    bottom: -165px;
+    font-size: 50px;
+    display: block;
+    padding-right: 15px;
+    
+}
+.heart::after {
+    font-size: 50px;
+    content: '\2665';
+    color: red;
+    
+}
+.spades::after {
+    font-size: 50px;
+    content: '\2660';
+    
+}
+.clubs::after {
+    font-size: 50px;
+    content: '\2663';
+   
+}
+.diamonds::after {
+    font-size: 50px;
+    content: '\2666';
+    
+}
+
+.card-back {
+    width: 270px;
+    height: 360px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 50px;
+    background-image: url("https://picsum.photos/200/300");
+    object-fit: cover;
+}
+
+
